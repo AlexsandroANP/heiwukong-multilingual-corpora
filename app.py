@@ -115,7 +115,7 @@ if st.sidebar.button("🔎 检索"):
         save_results=save_results
     )
 
-    st.subheader("查询结果 😇 RESULT")
+    st.subheader("查询结果 🎯 RESULT")
 
     if save_results:
         json_data = json.dumps(results, ensure_ascii=False, indent=4)
